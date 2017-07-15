@@ -8,7 +8,7 @@
 
 </head>
 <body>
-	<p>登录成功，好喜欢您：<%=	request.getParameter("uname") %></p>
+	<p>登录成功，好喜欢您 真的哦哦：<%=	request.getParameter("uname") %></p>
 	
 
 </body>
