@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--   namespace:命名空间 -->
+<mapper namespace="com.yc.bean.Users">
+
+	<!-- mapper映射中的配置项主要对应sql的四种操作,   select, insert,update,delete -->
+	
+	<!-- 对于每个操作操作而言,   parameterType: sql语句中的参数的   -> jdbc中的? id表示这条sql语句的名字       com.yc.bean.Product.selectProduct
+	
+	 -->
+	<select id="login" parameterType="Users" resultType="Users" >
+		select * from users where uname=#{uname} and upass=#{upass}
+	</select>
+	
+</mapper>

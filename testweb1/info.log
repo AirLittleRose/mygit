@@ -1,0 +1,140 @@
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 18833829.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f61a5]
+==>  Preparing: select * from users where uname=? and upass=? 
+==> Parameters: a(String), a(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f61a5]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f61a5]
+Returned connection 18833829 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 30113588.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1cb7f34]
+==>  Preparing: select * from users where uname=? and upass=? 
+==> Parameters: a(String), e(String)
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1cb7f34]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1cb7f34]
+Returned connection 30113588 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 18005708.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@112becc]
+==>  Preparing: select * from users where uname=? and upass=? 
+==> Parameters: a(String), e(String)
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@112becc]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@112becc]
+Returned connection 18005708 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 26337422.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@191e08e]
+==>  Preparing: select * from users where uname=? and upass=? 
+==> Parameters: a(String), a(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@191e08e]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@191e08e]
+Returned connection 26337422 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 17580360.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@10c4148]
+==>  Preparing: select * from users where uname=? and upass=? 
+==> Parameters: a(String), a(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@10c4148]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@10c4148]
+Returned connection 17580360 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 30113588.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1cb7f34]
+==>  Preparing: select * from users where uname=? and upass=? 
+==> Parameters: a(String), a(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1cb7f34]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1cb7f34]
+Returned connection 30113588 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 2998209.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2dbfc1]
+==>  Preparing: select * from users where uname=? and upass=? 
+==> Parameters: a(String), a(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2dbfc1]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2dbfc1]
+Returned connection 2998209 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 26337422.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@191e08e]
+==>  Preparing: select * from users where uname=? and upass=? 
+==> Parameters: a(String), a(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@191e08e]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@191e08e]
+Returned connection 26337422 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 21208144.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1439c50]
+==>  Preparing: select * from users where uname=? and upass=? 
+==> Parameters: a(String), a(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1439c50]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1439c50]
+Returned connection 21208144 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 17580360.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@10c4148]
+==>  Preparing: select * from users where uname=? and upass=? 
+==> Parameters: a(String), e(String)
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@10c4148]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@10c4148]
+Returned connection 17580360 to pool.
