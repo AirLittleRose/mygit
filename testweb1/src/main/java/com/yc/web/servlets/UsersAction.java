@@ -31,25 +31,24 @@ public class UsersAction extends BaseServlet{
 	
 	private void login(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		
-		JsonModel jsonbean = new JsonModel();
 		try {
-			Users u = RequestUtil.getParameter(req, Users.class);
-			
+			String username = req.getParameter("uname");
+			String upass = req.getParameter("upass");
+			Users u = new Users();
+			u.setUname(username);
+			u.setUpass(upass);
 			UsersBiz ub = new UsersBizImpl();
 			Users user = ub.login(u);
-			jsonbean.setCode(1);
-			jsonbean.setObj(user);
-			HttpSession session = req.getSession();
+			System.out.println(user);
+			String uname = user.getUname();
 			if(user!=null){
-				session.setAttribute("user", user);
+				req.setAttribute("uname", uname);
+				System.out.println(uname);
 				req.getRequestDispatcher("/index.jsp").forward(req, resp);
-			}			
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
-			jsonbean.setCode(0);
-			jsonbean.setObj("服务器错误："+e.getMessage());
 		}
-		super.outJson(jsonbean, resp);
 		
 //		FavoriteBiz fb = new FavoriteBizImpl();
 //		List<Favorite> list = fb.findFavorite(tname);
